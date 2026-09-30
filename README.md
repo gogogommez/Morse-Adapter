@@ -15,13 +15,23 @@ Developed by **Roland Schaal**.
 
 ## Wiring
 
-| Connection | Raspberry Pi Pico |
-| --- | --- |
-| Left paddle | GP10 |
-| Right paddle | GP2 |
-| Common | GND |
+![Morse-Adapter wiring diagram](images/Morse-Adapter_Verdrahtung.png)
 
-The inputs use the Pico's internal pull-up resistors. The paddle switches the corresponding GPIO to GND.
+| Raspberry Pi Pico | Cable color | 3.5 mm TRS connection |
+| --- | --- | --- |
+| **GP2 – physical Pin 4** | 🔴 Red | **Tip** |
+| **GND – physical Pin 3** | ⚪ White | **Sleeve** |
+| **GP10 – physical Pin 14** | ⚫ Black | **Ring** |
+
+```text
+Raspberry Pi Pico                 3.5 mm TRS jack
+
+GP2  – Pin 4  ───── RED ───────► TIP
+GND  – Pin 3  ───── WHITE ─────► SLEEVE
+GP10 – Pin 14 ───── BLACK ─────► RING
+```
+
+There are exactly three connections. The inputs use the Pico's internal pull-up resistors; the paddle contacts switch the corresponding GPIO to GND.
 
 ## Parts list
 
