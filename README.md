@@ -15,7 +15,7 @@ Developed by **Roland Schaal**.
 
 ## Wiring
 
-![Morse-Adapter wiring diagram](images/Morse-Adapter_Schaltplan.png)
+![Morse-Adapter wiring diagram](images/morse_adapter_schaltplan.png)
 
 | Raspberry Pi Pico | Cable color | 3.5 mm TRS connection |
 | --- | --- | --- |
