@@ -7,6 +7,7 @@ Developed by **Roland Schaal**.
 ## Features
 
 - **Morse Mania:** left paddle = `a`, right paddle = `s`
+  - Note: the square brackets correspond to the US/English keyboard layout. On a German keyboard layout the same keys are `ü` (left paddle) and `+` (right paddle).
 - **VBand / Morse Invaders:** left paddle = `[`, right paddle = `]`
 - Simultaneous paddle input (squeezing) is supported
 - Hold both paddles for **15 seconds** to switch mode
